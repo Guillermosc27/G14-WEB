@@ -24,11 +24,6 @@ app.use("/products", routerProducts)
 //     console.log("El servidor está ejecutandose");
 // }
 
-const usuario = {
-    nombre: "Juan Carlos",
-    Correo: "juan.perez@o365.unab.edu.co",
-    edad: 99,
-}
 
 
 app.get("/", (req, res) => {
